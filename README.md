@@ -1,6 +1,7 @@
 ![packer](https://socialify.git.ci/1derian/packer/image?description=1&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
 
 ## 0.工具更新
+### 2023/12/01
 新增 **37** 种shellcode运行的方式, 其中大多数为回调函数加载, shellcode的处理从简单的xor更换成AES加密, 修改了部分loader模板, 解决火绒报毒的问题, 如有什么使用问题, 欢迎各位师傅前来交流, 大佬勿喷, 个人联系方式在末尾公众号
 
 ![image-20231201142102528](assets/image-20231201142102528.png)
