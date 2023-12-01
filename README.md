@@ -1,5 +1,12 @@
 ![packer](https://socialify.git.ci/1derian/packer/image?description=1&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
 
+## 0.工具更新
+新增 **37** 种shellcode运行的方式, 其中大多数为回调函数加载, shellcode的处理从简单的xor更换成AES加密, 修改了部分loader模板, 解决火绒报毒的问题, 如有什么使用问题, 欢迎各位师傅前来交流, 大佬勿喷, 个人联系方式在末尾公众号
+
+![image-20231201142102528](assets\image-20231201142102528.png)
+
+![image-20231201142122345](assets\image-20231201142122345.png)
+
 ## 1.工具介绍
 
 packer 是一款针对cs生成的shellcode快速打包成exe的一款工具, 内置了16种加载方式提供选择, 针对shellcode只是简单的进行了异或的处理, 并没有添加过多的免杀处理, 所以这只是本项目只是一个快速打包器, 如果刚好生成的exe是免杀的, 那么恭喜你 !
